@@ -1,0 +1,92 @@
+@media screen and (min-width: 768px) {
+    .head-title{
+        padding-left: 20px;
+        display: flex;
+        justify-content: start;
+    }
+
+    .banner {
+        width: 100%;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+    .recipe-list ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recipe-list ul li {
+        width: calc(100% / 3);
+    }
+
+    .hid-title {
+        display: flex;
+    }
+
+    .social {
+        width: 120px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .tiramisù-img {
+        float: left;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .head-title{
+        padding-left: 20px;
+        display: flex;
+        justify-content: start;
+    }
+
+    img {
+        width: 70%;
+    }
+
+    .banner {
+        width: 100%;
+        padding-bottom: 20px;
+        display: flex;
+    }
+
+    .dessert-recipe {
+        display: flex
+    }
+
+    .recipe-list ul li {
+        width: calc(100% / 1);
+    }
+
+    .tiramisù {
+        width: 100%;
+    }
+
+    .recipe-list {
+        width: 30%;
+        padding-left: 10px;
+    }
+
+    
+    .hid-title {
+        display: flex;
+    }
+
+    .social span {
+        display: flex;
+    }
+
+    .social {
+        width: 120px;
+        height: 40px;
+        border-radius: 50px;
+    }
+
+    .tiramisù-img {
+        float: left;
+        width: 30%;
+    }
+}
